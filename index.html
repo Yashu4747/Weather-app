@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchInput" placeholder="Enter city name">
+                <button class="btn btn-primary" id="searchBtn">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="weather-card">
+            <div class="weather-header">
+                <div class="location">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span class="city">Guntakal</span>
+                </div>
+                <div class="date">Monday, January 15, 2025</div>
+            </div>
+
+            <div class="weather-body">
+                <div class="weather-icon">
+                    <i class="bi bi-cloud-sun"></i>
+                </div>
+                <div class="temperature">28°C</div>
+                <div class="condition">Partly Cloudy</div>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-item">
+                    <div class="detail-label">
+                        <i class="bi bi-droplet"></i>
+                        Humidity
+                    </div>
+                    <div class="detail-value humidity">30%</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">
+                        <i class="bi bi-wind"></i>
+                        Wind Speed
+                    </div>
+                    <div class="detail-value wind-speed">8 km/h</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">
+                        <i class="bi bi-cloud"></i>
+                        AQI
+                    </div>
+                    <div class="detail-value aqi">30</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
