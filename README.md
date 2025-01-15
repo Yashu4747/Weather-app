@@ -2,7 +2,7 @@
 
 A sleek and modern weather application that provides real-time weather information with a beautiful user interface. View the live demo [here](https://yashu-weather-app.netlify.app/).
 
-![Weather App Screenshot](https://yashu-weather-app.netlify.app/screenshot.png)
+![Weather App Screenshot](./Screenshot%20(2).png)
 
 ## Features
 
